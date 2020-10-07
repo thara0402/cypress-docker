@@ -26,3 +26,6 @@ $ npm install cypress --save-dev
 ```shell-session
 $ npx cypress run
 ```
+
+## Reference
+https://docs.cypress.io/examples/examples/docker.html#Images
