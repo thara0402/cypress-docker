@@ -1,6 +1,8 @@
+const targetUrl = Cypress.env('target_url')
+
 describe('My First Test', function() {
   it('Visit Google', function() {
-    cy.visit('https://www.google.co.jp')
+    cy.visit(targetUrl)
 
     cy.get("input[name='q']")
       .type('cypress.io')

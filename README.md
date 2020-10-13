@@ -28,4 +28,8 @@ $ npx cypress run
 ```
 
 ## Reference
+### Docker Image
 https://docs.cypress.io/examples/examples/docker.html#Images
+
+### Environment Variables
+https://docs.cypress.io/guides/guides/environment-variables.html#Setting

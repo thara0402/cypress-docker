@@ -7,5 +7,6 @@ WORKDIR /app
 
 COPY ./cypress ./cypress
 COPY ./cypress.json ./cypress.json
+COPY ./cypress.env.json ./cypress.env.json
 
 RUN npx cypress run
